@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Farhan B | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="name">Mohamed Farhan B</h1>
+            <p class="tagline">Proactive and dedicated Information Technology student</p>
+            <div class="contact-links">
+                <a href="tel:+919962436282" class="contact-link">
+                    <i class="fas fa-phone"></i> +91 9962436282
+                </a>
+                <a href="mailto:mohamedfarhan15029@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="https://linkedin.com/in/mohamed-farhanb" target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://leetcode.com/u/Farhan12121" target="_blank" class="contact-link">
+                    <i class="fas fa-code"></i> LeetCode
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#objective">Career Objective</a></li>
+                <li><a href="#skills">Technical Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#additional">Additional Info</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Career Objective -->
+        <section id="objective" class="section">
+            <div class="container">
+                <h2 class="section-title">Career Objective</h2>
+                <p class="objective-text">
+                    A student trying to build a rewarding career in Information Technology by utilizing problem-solving skills and passion for technology to support and improve business processes while continually advancing technical expertise.
+                </p>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>AI/ML</h3>
+                        <p>Generative AI, NLP, Prompt Engineering, Sentiment Analysis, LLMs, RAG</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <p>Python (Intermediate), Java (Basic), C++ (Basic), HTML/CSS, JavaScript</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <p>Canva (Advanced), Microsoft Word (Advanced), PowerPoint (Intermediate), Figma (Basic)</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <p>Tamil (Native), English (Advanced), Japanese (Basic)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>AI Career Counselor</h3>
+                        <p>AI-powered career guidance chatbot using Python, Gemini API, and Streamlit</p>
+                        <button class="btn-details" onclick="showProjectDetails('project1')">View Details</button>
+                    </div>
+                    <div class="project-card">
+                        <h3>ClonePay Detector</h3>
+                        <p>Security-focused mobile application to identify fake payment apps</p>
+                        <button class="btn-details" onclick="showProjectDetails('project2')">View Details</button>
+                    </div>
+                    <div class="project-card">
+                        <h3>Timer and Cooldown Alerter</h3>
+                        <p>Productivity tool for managing timed tasks and rest intervals</p>
+                        <button class="btn-details" onclick="showProjectDetails('project3')">View Details</button>
+                    </div>
+                    <div class="project-card">
+                        <h3>AgriDoctor</h3>
+                        <p>AI-driven mobile platform for sustainable agriculture in rural areas</p>
+                        <button class="btn-details" onclick="showProjectDetails('project4')">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Section -->
+        <section id="internships" class="section">
+            <div class="container">
+                <h2 class="section-title">Internships</h2>
+                <div class="internships-grid">
+                    <div class="internship-card">
+                        <h3>Gateway Software Solutions</h3>
+                        <p>Gen AI with Python Intern - 21-day intensive internship focused on Generative AI</p>
+                        <button class="btn-details" onclick="showInternshipDetails('internship1')">View Details</button>
+                    </div>
+                    <div class="internship-card">
+                        <h3>Webgen</h3>
+                        <p>Web Development Intern - Modern web technologies and practices</p>
+                        <button class="btn-details" onclick="showInternshipDetails('internship2')">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <h3>B.Tech Information Technology</h3>
+                        <p class="institution">SNS College of Engineering</p>
+                        <p class="duration">2023 – 2027</p>
+                        <p class="grade">CGPA: 8.51 (Current)</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <p class="institution">Syed Annual Matriculation Hr.Sec.School</p>
+                        <p class="duration">2021 – 2023</p>
+                        <p class="grade">Percentage: 84.5%</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                        <p class="institution">Syed Annual Matriculation Hr.Sec.School</p>
+                        <p class="duration">2020 – 2021</p>
+                        <p class="grade">Percentage: 70%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Courses & Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <h3>Gen AI with Python</h3>
+                        <p>Gateway Software Solutions - 21-day Intensive Internship (2025)</p>
+                    </div>
+                    <div class="cert-card">
+                        <h3>LeetCode Achievements</h3>
+                        <p>300+ problems solved, 30+ daily coding streaks maintained (2024)</p>
+                    </div>
+                    <div class="cert-card">
+                        <h3>PrepInsta Courses</h3>
+                        <p>Completed 10+ courses on programming and development (2024)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Information -->
+        <section id="additional" class="section">
+            <div class="container">
+                <h2 class="section-title">Additional Information</h2>
+                <div class="additional-info">
+                    <div class="info-card">
+                        <h3>Activities & Achievements</h3>
+                        <ul>
+                            <li>Maintained consistent coding practice with 30+ daily streaks on LeetCode</li>
+                            <li>Solved 300+ algorithmic problems across various difficulty levels</li>
+                            <li>Completed intensive 21-day Gen AI internship with hands-on project development</li>
+                            <li>Developed expertise in modern web technologies and AI/ML concepts</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Management (Intermediate)</li>
+                            <li>Communication (Intermediate)</li>
+                            <li>Leadership (Intermediate)</li>
+                            <li>Problem-solving and analytical thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('projectModal')">&times;</span>
+            <div id="projectDetails"></div>
+        </div>
+    </div>
+
+    <!-- Internship Details Modal -->
+    <div id="internshipModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('internshipModal')">&times;</span>
+            <div id="internshipDetails"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohamed Farhan B. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
